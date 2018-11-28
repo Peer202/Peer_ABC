@@ -16,6 +16,11 @@ class cfgGlasses {
       picture = "\Peer_ABC\ui\NBC_b_mask_hood_inv_ca.paa";
       mass = 4;
       hiddenSelections[] = {"Camo"}; /// selection defined in sections of model that may have texture and materials changed by setObjectTexture or next parameter
-      hiddenSelectionsTextures[] = {"Peer_ABC\data\textures\m04_mask_hood_blk_co.paa"}; /// what texture does this soldier use for camo selection
+      hiddenSelectionsTextures[] = {"Peer_ABC\data\textures\m04_mask_hood_blu_co.paa"}; /// what texture does this soldier use for camo selection
+ };
+ class ABC_m04_gas_mask_blk: ABC_m04_gas_mask_blue{
+         displayname = "M04 Gasmask (black)";
+         hiddenSelections[] = {"Camo"}; /// selection defined in sections of model that may have texture and materials changed by setObjectTexture or next parameter
+         hiddenSelectionsTextures[] = {"Peer_ABC\data\textures\m04_mask_hood_blk_co.paa"};
  };
 };
