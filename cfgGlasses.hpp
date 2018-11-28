@@ -1,10 +1,14 @@
+
+
 class cfgGlasses {
- class None ;
-    class ABC_m04_gas_mask_blue: None {
-      ace_color[] = {0, 0, -1};  // Post-proccess color
-      ace_tintAmount = 8;  // Amount of tint applied to the color
+ class None;
+
+ class ABC_m04_gas_mask_blue: None {
+      ace_color[] = {0, 0, 0};  // Post-proccess color
+      ace_tintAmount = 8;
+       ACE_Resistance = 2;  // Amount of tint applied to the color
       ace_protection = 1;  // Provides protection (0-no, 1-yes)
-      ace_overlay = "\Peer_ABC\overlay\m04_overlay_ca.paa";
+      ACE_Overlay = "\Peer_ABC\overlay\m04_overlay_ca.paa";
       scope = 2;
       author = "Model by Mr.Skellington, config by Peer";
       displayname = "M04 Gasmask (blue)";
