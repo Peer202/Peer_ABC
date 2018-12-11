@@ -35,7 +35,7 @@ class cfgGlasses {
  };
  class ABC_m50_gas_mask_hood: ABC_m04_gas_mask_blue
  {
-  displayname = "M50 Gas mask (hood)";
+  displayname = "M50 Gas mask (hood)(green camo)";
   picture = "\Peer_ABC\ui\NBC_b_mask_hood_inv_ca.paa";
   model = "\Peer_ABC\data\skn_b_nbc_mask_hood.p3d";
   hiddenSelectionsTextures[] = {"\Peer_ABC\data\textures\NBC_M50_mask_CO.paa"}; /// what texture does this soldier use for camo selection
@@ -43,13 +43,4 @@ class cfgGlasses {
   ///ACE_OverlayCracked = "";
  };
 
- class ABC_m50_gas_mask: ABC_m50_gas_mask_hood
- {
-   displayname = "M50 Gas Mask";
-   model = "\Peer_ABC\data\skn_b_nbc_mask_hood.p3d";
-   picture = "\Peer_ABC\ui\NBC_b_mask_hood_inv_ca.paa";
-   hiddenSelectionsTextures[] = {"\Peer_ABC\data\textures\NBC_M50_mask_CO.paa"}; /// what texture does this soldier use for camo selection
-   // ACE_Overlay = "skn_nbc_units\overlays\s10_overlay_ca.paa";
-   ///ACE_OverlayCracked = "";
- };
 };
